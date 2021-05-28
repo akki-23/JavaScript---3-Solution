@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/design.css">
+    <title>Fetch & display data from a API using JavaScript</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>Cocktail DB</header>
+        <form id="filter" action=""></form>
+        <input type="checkbox" id="ordinary" checked>Ordinary Drink <br>
+        <input type="checkbox" id="cocktail" checked>Cocktail <br>
+        <input type="checkbox" id="beer" checked>Beer <br>
+        <button id="btn" type="submit" onclick="helperFunc()">APPLY</button>
+        </form>
+        <div class="container-item" id="display">
+
+        </div>
+    </div>
+    <script src="./js/script.js" defer></script>
+</body>
+
+</html>
